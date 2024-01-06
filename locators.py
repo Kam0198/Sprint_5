@@ -28,9 +28,9 @@ class Locators:
     BUTTON_CONSTRUCTOR = (By.XPATH, "//p[contains(., 'Конструктор')]")
     LOGO_BUTTON = (By.XPATH, "//header/nav/div/a/*")
 
-    BUTTON_BREAD = (By.XPATH, "//h2[contains(text(),'Булки')]")
-    BUTTON_SOUSE = (By.XPATH, "//h2[contains(text(),'Соусы')]")
-    BUTTON_FILINGS = (By.XPATH, "//h2[contains(text(),'Начинки')]")
+    BUTTON_BREAD = (By.XPATH, "//h2[contains(text(),'Булки')]") #переход на меню Булки
+    BUTTON_SOUSE = (By.XPATH, "//h2[contains(text(),'Соусы')]") #переход на меню Соусы
+    BUTTON_FILINGS = (By.XPATH, "//h2[contains(text(),'Начинки')]") #переход на меню начинки
 
 
 
